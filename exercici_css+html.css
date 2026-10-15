@@ -1,0 +1,61 @@
+.galeria-inferior {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin_top: 50px;
+}
+
+.tarjeta-imagen {
+    flex: 1;
+    border:1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.tarjeta-imagen img{
+    width: 100%;
+    height: auto;
+    display:block;
+}
+
+.galeria-inferior p{
+    font-size: 20px;
+    font-variant-caps: all-small-caps;
+    text-align: center;
+}
+
+.tarjeta-imagen {
+    margin: 20px auto 60px auto;
+}
+
+.imagen-disneyplus {
+    text-align: center;
+}
+
+.imagen-principal img {
+    display: inline-block; 
+    max-width: 100%;      
+    height: auto;
+}
+
+.footer-links {
+    text-align: center;        
+    margin-top: 25px;          
+    font-size: 13px;            
+}
+
+
+.footer-links p {
+    margin: 8px 0;              
+}
+
+.footer-links a {
+    color: #666666;            
+    text-decoration: underline; 
+    font-family: Arial, sans-serif;
+    letter-spacing: 1px;       
+}
+
+.footer-links a:hover {
+    color: #000000;
+}
