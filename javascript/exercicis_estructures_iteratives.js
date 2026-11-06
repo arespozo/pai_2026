@@ -507,18 +507,23 @@
 // primer si només és divisible per 1 i per ell mateix (això implica que caldrà comprovar si hi ha
 // algun número entre 1 i N que sigui divisor de N).
 
-let N= Number (prompt("escriu un num"));
-let primer= true;
-let i=N-1;
-do {
-    if (N%i==0){
-        primer= false;
-        break;
-    }
-    i--;
-} while (i>=2);
-if (primer==true){
-    console.log("el numero es primer");
-} else{
-    console.log("no es primer");
-}
+// let N= Number (prompt("escriu un num"));
+// let primer= true;
+// let i=N-1;
+// do {
+//     if (N%i==0){
+//         primer= false;
+//         break;
+//     }
+//     i--;
+// } while (i>=2);
+// if (primer==true){
+//     console.log("el numero es primer");
+// } else{
+//     console.log("no es primer");
+// }
+
+// 18.5.- Escriu, fent servir la instrucció do-while, un programa que demani (fent servir la
+// instrucció prompt), 10 números, i ens digui quin és el més gran. 
+
+
